@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kellmanny Henrique</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/mediaqueries.css">
+
+</head>
+
+<body>
+    <!-- nav computador -->
+    <nav id="desktop-nav">
+        <div class="logo">
+            Kellmanny Henrique
+        </div>
+        <div>
+            <ul class="nav-links">
+                <li>
+                    <a href="#sobre">Sobre</a>
+                </li>
+                <li>
+                    <a href="#hardskills">HardSkills</a>
+                </li>
+                <li>
+                    <a href="#softskills">SoftSkills</a>
+                </li>
+                <li>
+                    <a href="#projetos">Projetos</a>
+                </li>
+                <li>
+                    <a href="#contato">Contato</a>
+                </li>
+
+
+            </ul>
+        </div>
+    </nav>
+    <!-- navegação smartphone/tablet -->
+    <nav id="hamburguer-nav">
+        <div class="logo">
+            Kellmanny Henrique
+        </div>
+        <div class="hamburguer-menu">
+            <div class="hamburguer-icon" onclick="ToggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li>
+                    <a href="#sobre" onclick="ToggleMenu()">Sobre</a>
+                </li>
+                <li>
+                    <a href="#hardskills" onclick="ToggleMenu()">HardSkills</a>
+                </li>
+                <li>
+                    <a href="#softskills" onclick="ToggleMenu()">SoftSkills</a>
+                </li>
+                <li>
+                    <a href="#projetos" onclick="ToggleMenu()">Projetos</a>
+                </li>
+                <li>
+                    <a href="#contato" onclick="ToggleMenu()">Contato</a>
+                </li>
+            </div>
+        </div>
+    </nav>
+    <!-- perfil -->
+    <section id="profile">
+        <div class="section__pic-container">
+            <img id="imagemRedonda" src="assets/kellmannyImage2.jpeg" alt="Kellmany Henrique foto de perfil">
+        </div>
+        <div class="section__text">
+            <p class="section__text__p1">
+                Olá! Eu sou o
+            </p>
+            <h1 class="title">
+                Kellmanny Henrique
+            </h1>
+            <p class="section__text__p2">
+                Desenvolvedor Frontend
+            </p>
+            <div class="btn-container">
+                <!-- curriculo -->
+                <button class="btn btn-color-2" onclick="window.open('./assets/curriculoKellmanny.pdf')">
+                    Baixar CV
+                </button>
+                <!-- contato -->
+                <button class="btn btn-color-1" onclick="location.href='./#contato'">
+                    Contato
+                </button>
+            </div>
+            <div id="socials-container">
+                <!-- linkedin -->
+                <img src="./assets/linkedin.png" alt="meu perfil linkedin" class="icon" onclick="location.href='https://www.linkedin.com/in/kellmanny-henrique-0822b0296/'">
+                <!-- github -->
+                <img src="./assets/github.png" alt="meu perfil github" class="icon" onclick="location.href='https://github.com/kellmanny'">
+            </div>
+        </div>
+    </section>
+    <!-- sobre -->
+    <section id="sobre">
+        <p class="section__text__p1">um pouco mais</p>
+        <h1 class="title">Sobre Mim</h1>
+        <div class="section-container">
+            <div class="section__pic-container">
+                <img src="./assets/imagem-kellmanny.jpg" alt="Imagem perfil" class="about-pic" />
+            </div>
+            <div class="about-details-container">
+                <div class="about-containers">
+                    <div class="details-container1">
+                        <img src="./assets/education.png" alt="Educação icone" class="icon" />
+                        <h3>Educação</h3>
+                        <p>Cursando Engenharia de Software<br />na universidade Estácio</p>
+                    </div>
+                </div>
+                <div class="text-container">
+                    <p>
+                        Tenho 21 anos, apaixonado por tecnologia com foco no desenvolvimento front-end. Atualmente, estou buscando uma oportunidade de estágio. Motivado a aprender e melhorar continuamente minhas habilidades para contribuir de maneira significativa para projetos
+                        desafiadores e para colaborar com profissionais talentosos e crescer junto com a equipe, agregando assim, valor à empresa.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#hardskills'" />
+    </section>
+    <!-- HardSkills -->
+    <section id="hardskills">
+        <p class="section__text__p1">
+            Explore minhas
+        </p>
+        <h1 class="title">
+            HardSkills
+        </h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container2">
+                    <h2 class="experience-sub-title">
+                        FrontEnd
+                    </h2>
+                    <!-- container de front end -->
+                    <div class="article-container">
+                        <article>
+                            <img src="./assets/checkmark.png" alt="habilidade icon" class="icon">
+                            <div>
+                                <h3>HTML</h3>
+                                <p>Avançado</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="habilidade icon" class="icon">
+                            <div>
+                                <h3>CSS</h3>
+                                <p>Intemediario</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="habilidade icon" class="icon">
+                            <div>
+                                <h3>JavaScript</h3>
+                                <p>Intemediario</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="habilidade icon" class="icon">
+                            <div>
+                                <h3>Tailwindcss</h3>
+                                <p>Intemediario</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="habilidade icon" class="icon">
+                            <div>
+                                <h3>TypeScript</h3>
+                                <p>Intermediario</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="habilidade icon" class="icon">
+                            <div>
+                                <h3>Angular</h3>
+                                <p>Básico</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                <div class="details-container2">
+                    <h2 class="experience-sub-title">
+                        BackEnd
+                    </h2>
+                    <!-- container de back end -->
+                    <div class="article-container">
+                        <article>
+                            <img src="./assets/checkmark.png" alt="habilidade icon" class="icon">
+                            <div>
+                                <h3>C#</h3>
+                                <p>Básico</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="habilidade icon" class="icon">
+                            <div>
+                                <h3>Node</h3>
+                                <p>Básico</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="habilidade icon" class="icon">
+                            <div>
+                                <h3>SQL</h3>
+                                <p>Básico</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="habilidade icon" class="icon">
+                            <div>
+                                <h3>Git</h3>
+                                <p>Intermediário</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#softskills'" />
+    </section>
+    <!-- Soft Skils -->
+    <section id="softskills">
+        <p class="section__text__p1">
+            Explore minhas
+        </p>
+        <h1 class="title">
+            Sofskills
+        </h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container2">
+                    <!-- SOFTSKILLS1-->
+                    <div class="article-container">
+                        <article>
+                            <img src="./assets/checkmark.png" alt="habilidade icon" class="icon">
+                            <div>
+                                <h3>Entusiasmo;
+                                </h3>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="habilidade icon" class="icon">
+                            <div>
+                                <h3>Seriedade</h3>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="habilidade icon" class="icon">
+                            <div>
+                                <h3>Comunicativo</h3>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="habilidade icon" class="icon">
+                            <div>
+                                <h3>Adaptativo</h3>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="habilidade icon" class="icon">
+                            <div>
+                                <h3>Trabalho em equipe
+                                </h3>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="habilidade icon" class="icon">
+                            <div>
+                                <h3>Gestão de tempo</h3>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="habilidade icon" class="icon">
+                            <div>
+                                <h3>Criatividade;</h3>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="habilidade icon" class="icon">
+                            <div>
+                                <h3>Mindset Agil
+                                </h3>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="habilidade icon" class="icon">
+                            <div>
+                                <h3>Empatia</h3>
+                            </div>
+                        </article>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#projetos'" />
+    </section>
+    <!-- Projetos -->
+    <section id="projetos">
+        <p class="section__text__p1">
+            Meus recentes
+        </p>
+        <h1 class="title">
+            Projetos
+        </h1>
+        <div class="experience-details-container">
+            <!-- Projeto 1 -->
+            <div class="about-containers">
+                <div class="details-container2 color-container">
+                    <div class="article-container">
+                        <img src="./assets/project-1.jpeg" alt="projeto-1" class="project-img">
+                    </div>
+                    <h2 class="experience-sub-title project-title">
+                        Projeto Ana Bella
+                        <div class="btn-container">
+                            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/kellmanny/projeto-ana-bella.git'">
+                            Github
+                        </button>
+                            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/kellmanny/projeto-ana-bella.git'">
+                            Live Demo
+                        </button>
+                        </div>
+                    </h2>
+                </div>
+                <!-- Projeto 2 -->
+                <div class="details-container2 color-container">
+                    <div class="article-container">
+                        <img src="./assets/project-2.jpeg" alt="projeto-2" class="project-img">
+                    </div>
+                    <h2 class="experience-sub-title project-title">
+                        Projeto Jogo Da velha
+                        <div class="btn-container">
+                            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/kellmanny/jogoDaVelha.git'">
+                            Github
+                        </button>
+                            <button class="btn btn-color-2 project-btn" onclick="location.href='https://jogo-da-velha-eight-zeta.vercel.app/'">
+                            Live Demo
+                        </button>
+                        </div>
+                    </h2>
+                </div>
+                <!-- Projeto 3 -->
+                <div class="details-container2 color-container">
+                    <div class="article-container">
+                        <img src="./assets/project-3.png" alt="projeto-3" class="project-img">
+                    </div>
+                    <h2 class="experience-sub-title project-title">
+                        Estilizando formulário
+                        <div class="btn-container">
+                            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/kellmanny/estilizando-formularios.git'">
+                            Github
+                        </button>
+                            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/kellmanny/estilizando-formularios.git'">
+                            Live Demo
+                        </button>
+                        </div>
+                    </h2>
+                </div>
+            </div>
+        </div>
+        <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#contato'" />
+    </section>
+    <!-- Contatos -->
+    <section id="contato">
+        <p class="section__text__p1">Entre em</p>
+        <h1 class="title">Contato comigo</h1>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <img src="./assets/email.png" alt="Email icone" class="icon contact-icon email-icon" />
+                <p><a href="mailto:kellmannyhenrique@gmail.com">Email</a></p>
+            </div>
+            <div class="contact-info-container">
+                <img src="./assets/linkedin.png" alt="LinkedIn icone" class="icon contact-icon" />
+                <p><a href="https://www.linkedin.com/in/kellmanny-henrique-0822b0296/">Linkedin</a></p>
+            </div>
+            <div class="contact-info-container">
+                <img src="./assets/whatsappicone.png" alt="whatsapp icone" class="icon contact-icon" />
+                <p><a href="https://wa.me/17991040085">Whatsapp</a></p>
+            </div>
+        </div>
+    </section>
+    <!-- rodapé -->
+    <footer>
+        <nav>
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                    <li>
+                        <a href="#sobre">Sobre</a>
+                    </li>
+                    <li>
+                        <a href="#hardskills">HardSkills</a>
+                    </li>
+                    <li>
+                        <a href="#softskills">SoftSkills</a>
+                    </li>
+                    <li>
+                        <a href="#projetos">Projetos</a>
+                    </li>
+                    <li>
+                        <a href="#contato">Contato</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <p>
+            Copyright &#169; 2024 Kellmanny Henrique. Todos os direitos reservados.
+        </p>
+    </footer>
+
+
+
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
